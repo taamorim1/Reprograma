@@ -1,0 +1,37 @@
+.questaoCorreta
+{
+  color: green;
+}
+
+.questaoIncorreta
+{
+  color: red;
+}
+
+.divBody
+{
+  margin: 20px;
+}
+
+body
+{
+  font-family: helvetica;
+}
+
+h1
+{
+  color: #00a860;
+}
+
+h3
+{
+  color: #07683e;
+}
+
+.divQuestoes
+{
+  border-radius: 5px;
+  padding-left: 30px;
+  padding-top: 10px;
+  background-color: #ebf2ee;
+}

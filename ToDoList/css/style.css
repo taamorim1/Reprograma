@@ -1,0 +1,51 @@
+h1
+{
+  color: white;
+  font-family: helvetica;
+}
+
+.divBody
+{
+  margin: auto;
+  width: 40%;
+  padding-top: 10px ;
+  padding-left: 10px;
+  padding-right: 10px ;
+  background-color: #ff8c8c;
+  height: 100% ;
+  position: relative;
+  border-radius: 5px;
+
+}
+
+.botao
+{
+  background-color: #be3f3f;
+  border-color: #be3f3f ;
+  color: white;
+  height: 40px;
+
+}
+
+.txtNovaTarefa
+{
+  width: 100%;
+  height: 30px;
+}
+
+.listItem
+{
+  font-family: helvetica;
+}
+
+.divListItem
+{
+  background-color: white;
+  border-radius: 5px;
+  border: 5px;
+  border-color: #ff8c8c;
+  height: 30px;
+  padding-left: 10px;
+  padding-top: 5px;
+  margin-bottom: 5px;
+}

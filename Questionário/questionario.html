@@ -1,0 +1,52 @@
+<html>
+  <head>
+    <title>Questionário</title>
+    <meta charset="utf-8"></meta>
+    <script src="./Js/questionario.js" type="text/javascript"> </script>
+    <link rel="stylesheet" type="text/css" href="./css/style.css"></link>
+  </head>
+
+  <body>
+    <div class="divBody">
+      <div><h1>Questionário</h1></div>
+
+      <div class="divQuestoes" id="divQuestoes">
+
+
+        <div>
+          <h3>Questão 1</h3>
+          <p> <b>1.</b> O que significa a sigla HTML? </p>
+          <p id="p_check_1_a" name = "p_check_1" > <input type="radio" name="check_1" id="check_1_a">A. Hyperlinks and Text Markup Language </p>
+          <p id="p_check_1_b" name = "p_check_1"> <input type="radio" name="check_1" id="check_1_b">B. Hyper Text Markup Language </p>
+          <p id="p_check_1_c" name = "p_check_1"> <input type="radio" name="check_1" id="check_1_c">C. Home Tool Markup Language </p>
+        </div>
+
+        <div>
+          <h3>Questão 2</h3>
+          <p> <b>2.</b> O que significa a sigla CSS? </p>
+          <p id="p_check_2_a" name = "p_check_2"> <input type="radio" name="check_2" id="check_2_a">A. Creative Style Sheets </p>
+          <p id="p_check_2_b" name = "p_check_2"> <input type="radio" name="check_2" id="check_2_b">B. Cascading Style Sheets </p>
+          <p id="p_check_2_c" name = "p_check_2"> <input type="radio" name="check_2" id="check_2_c">C. Colorful Style Sheets </p>
+        </div>
+
+        <div>
+          <h3>Questão 3</h3>
+          <p> <b>3.</b> Dentro de qual elemento HTML nós colocamos o Javascript </p>
+          <p id="p_check_3_a" name = "p_check_3"> <input type="radio" name="check_3" id="check_3_a">A. script </p>
+          <p id="p_check_3_b" name = "p_check_3"> <input type="radio" name="check_3" id="check_3_b">B. js </p>
+          <p id="p_check_3_c" name = "p_check_3"> <input type="radio" name="check_3" id="check_3_c">C. Javascript </p>
+        </div>
+
+        <div id="divQtdRespostas" style="display:none;">
+
+        </div>
+
+        <div>
+          <input type="button" name="" value="Verificar Respostas" onclick="validarRespostas();">
+        </div>
+
+      </div>
+    </div>
+
+  </body>
+</html>
